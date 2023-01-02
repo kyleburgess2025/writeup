@@ -1,5 +1,7 @@
 # Etherpad 1 & 2
 
+### LDAP me up, dude.
+
 ## Etherpad Part 1: The Challenge
 We are given a link to an Etherpad instance and the password for an account. However, we are told that the username is unknown.
 We are also told that the server is running Etherpad 1.8.18 with [ep_ldapauth 0.4.0](https://github.com/tykeal/ep_ldapauth/tree/42cd54c8f65ebb4b4c061b682be2acaf5486e0bc). Finally, we are given a JSON file titled "settings." This contained the LDAP auth settings. I looked into them, but didn't find anything worthwhile - pretty standard stuff.
